@@ -1,0 +1,60 @@
+.conatiner-1, .container-2, .container-3, .container-4,.container-5{
+    border: 1px solid black;
+    text-align: center;
+    margin: 0 auto;
+    width: 75%;
+
+}
+.flex-box-container-1, .flex-box-container-2, .flex-box-rps, .flex-box-pick-color, .flex-blackjack-row1, 
+.flex-blackjack-row2, .flex-blackjack-row3{
+    display: flex;
+    border :  1px solid black;
+    padding: 10px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+.flex-blackjack-row1, .flex-blackjack-row2{
+    background: url("../images/green.jpg");
+    color: #ffffff;
+}
+.flex-blackjack-row1 div{
+    border: 1px solid black;
+    height: 300px;
+    padding: 10px;
+    text-align: center;
+    flex: 1;
+}
+.flex-blackjack-row2 div{
+    border: 3px solid black;
+    padding: 6px;
+}
+
+table, th, td{
+    padding: 6px;
+    border: 2px solid black;
+}
+.flex-blackjack-row2 button{
+    border: 1px solid black;
+    padding: 2px;
+}
+.flex-blackjack-row1 div img{
+    
+    margin: 4px;
+}
+.flex-box-container-1 div{
+    display: flex;
+    border: 1px solid black;
+    align-items: center;
+}
+.flex-box-container-2 img{
+    margin: 15px;
+    width: 250px;
+    height: 200px;
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.7);
+}
+
+.flex-box-rps img:hover {
+    box-shadow: 0px 10px 50px rgba(30,10,210,0.7);
+}
