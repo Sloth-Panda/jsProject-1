@@ -1,6 +1,6 @@
 //challenge 1: your age in days
 function ageInDays(){
-    var birthYear=prompt("what is your age?");
+    var birthYear=prompt("What is your birth year?");
     var ageIndays= (2020-birthYear)*365;
     var h1=document.createElement('h1');
     var textAnswer=document.createTextNode("You are " + ageIndays + " days old." );
